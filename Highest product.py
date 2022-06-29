@@ -5,3 +5,7 @@ Class Solution:
     def maxp(self, A):
         A = sorted()
         
+        hi3 = A[-1] * A[-2] * A[-3]
+        lo2hi1 = A[-1] * A[0] * A[2]
+    
+    return max(hi1, lo2hi1)
