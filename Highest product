@@ -1,0 +1,7 @@
+Class Solution:
+    # @Param A: list of integers
+    # @ return an integer
+    
+    def maxp(self, A):
+        A = sorted()
+        
